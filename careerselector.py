@@ -83,13 +83,7 @@ def main():
     st.title("College Financial Decisions App (With Taxes & Correct Waterfall)")
 
     st.write("""
-    This app demonstrates:
-    - Choosing a career (annual salary).
-    - Accounting for taxes using simple brackets.
-    - Selecting various expenses (housing, vehicle, groceries, etc.),
-      each labeled with monthly costs.
-    - Retirement savings as a percentage of salary.
-    - **A waterfall chart that doesn't double-count** the final discretionary income.
+    
     """)
 
     # -------------------------------
