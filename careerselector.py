@@ -131,7 +131,7 @@ def main():
         'Item': ['Annual Salary', 'Total Expenses', 'Discretionary Income'],
         'Amount': [annual_salary, total_expenses, discretionary_income]
     }
-    df_bar = pd.DataFrame(data_bar)
+    df_bar = pd.DataFrame(data_bar) // test
     st.bar_chart(df_bar.set_index('Item'))
 
     # --- Sidebar Pie Chart: Expense Breakdown ---
